@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+:root{
+    --corVerde: #29a744;
+}
+
+.interface {
+    width: 100%;
+    height: 100vh;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tela-login {
+    width: 70%;
+    text-align: center;
+
+}
+
+.tela-login h1{
+    font-size: 3.5rem;
+}
+
+.tela-login h1 span{
+    color: var(--corVerde);
+}
+
+.tela-login form{
+    width: 40%;
+    margin: 64px auto;
+}
+
+.tela-login form input{
+    width: 100%;
+}
